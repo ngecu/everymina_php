@@ -1,0 +1,28 @@
+[20-May-2022 14:27:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/everymin/public_html/admin/includes/email.php on line 11
+[20-May-2022 14:27:33 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home3/everymin/public_html/admin/includes/email.php on line 12
+[20-May-2022 14:27:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/everymin/public_html/admin/includes/email.php on line 15
+[20-May-2022 14:29:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getPostAuthorById() in /home3/everymin/public_html/admin/includes/email.php:21
+Stack trace:
+#0 /home3/everymin/public_html/admin/includes/email.php(170): getAllSubscribers()
+#1 {main}
+  thrown in /home3/everymin/public_html/admin/includes/email.php on line 21
+[20-May-2022 14:30:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getPostAuthorById() in /home3/everymin/public_html/admin/includes/email.php:21
+Stack trace:
+#0 /home3/everymin/public_html/admin/includes/email.php(170): getAllSubscribers()
+#1 {main}
+  thrown in /home3/everymin/public_html/admin/includes/email.php on line 21
+[20-May-2022 15:08:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getAllSubscribers(), 0 passed in /home3/everymin/public_html/admin/includes/email.php on line 333 and exactly 3 expected in /home3/everymin/public_html/admin/includes/email.php:9
+Stack trace:
+#0 /home3/everymin/public_html/admin/includes/email.php(333): getAllSubscribers()
+#1 {main}
+  thrown in /home3/everymin/public_html/admin/includes/email.php on line 9
+[20-May-2022 15:09:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getAllSubscribers(), 0 passed in /home3/everymin/public_html/admin/includes/email.php on line 333 and exactly 3 expected in /home3/everymin/public_html/admin/includes/email.php:9
+Stack trace:
+#0 /home3/everymin/public_html/admin/includes/email.php(333): getAllSubscribers()
+#1 {main}
+  thrown in /home3/everymin/public_html/admin/includes/email.php on line 9
+[20-May-2022 15:09:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getAllSubscribers(), 0 passed in /home3/everymin/public_html/admin/includes/email.php on line 333 and exactly 3 expected in /home3/everymin/public_html/admin/includes/email.php:9
+Stack trace:
+#0 /home3/everymin/public_html/admin/includes/email.php(333): getAllSubscribers()
+#1 {main}
+  thrown in /home3/everymin/public_html/admin/includes/email.php on line 9
